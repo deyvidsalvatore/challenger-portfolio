@@ -1,75 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Deyvid Santos - Portfólio</title>
-    <link href="styles/reset.css" rel="stylesheet" />
-    <link href="styles/styles.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div class="all">
-      <!-- Navbar -->
-      <section class="menu">
-        <header class="cabecalho">
-          <nav class="cabecalho__menu">
-            <div class="cabecalho__menu__esquerda">
-              <img
-                src="assets/imgs/komodo.png"
-                alt="Ícone estrela"
-                class="cabecalho__menu__icone"
-              />
-              <span class="cabecalho__menu__nome">Deyvid Santos</span>
-            </div>
-            <div class="cabecalho__menu__direita">
-              <a href="#sobreMim" class="cabecalho__menu__link">Sobre mim</a>
-              <a href="#" class="cabecalho__menu__link">Skills</a>
-              <a href="#" class="cabecalho__menu__link">Hobbies</a>
-              <a href="#" class="cabecalho__menu__link">Formação</a>
-              <a href="#" class="cabecalho__menu__link">Projetos</a>
-              <a
-                href="https://instagram.com/deyvid.salvatore"
-                class="cabecalho__menu__link"
-                >@deyvid.salvatore</a
-              >
-            </div>
-          </nav>
-        </header>
-      </section>
+<head>
+  <title>Deyvid Santos - Portfólio</title>
+  <link href="styles/reset.css" rel="stylesheet" />
+  <link href="styles/styles.css" rel="stylesheet" />
+</head>
 
-      <!-- Apresentação -->
-      <section class="apresentacao">
-        <div class="apresentacao__div">
-          <img
-            src="assets/imgs/komodo.png"
-            alt="Um ícone de Komodo"
-            class="apresentacao__perfil"
-          />
-          <div class="apresentacao__container" id="#sobreMim">
-            <h2 class="apresentacao__bio">
-              Olá, meu nome é Deyvid Santos e sou
-              <strong>Engenheiro de Software</strong>
-            </h2>
-            <h3 class="apresentacao__subsecao">
-              Eu sou formado em CCO pela UNIFG e atualmente estou participando
-              no projeto Oracle ONE na Alura.
-            </h3>
-            <ul class="apresentacao__redes">
-              <li class="apresentacao__rede__item">
-                <a href="">Github<img src="assets/icons/arrow_cyan_24dp.png" alt="Github" /></a>
-              </li>
-              <li class="apresentacao__rede__item">
-                <a href="">LinkedIn<img src="assets/icons/arrow_cyan_24dp.png" alt="Linkedin" /></a>
-              </li>
-              <li class="apresentacao__rede__item">
-                <a href="">Medium<img src="assets/icons/arrow_cyan_24dp.png" alt="Medium" /></a>
-              </li>
-              <li class="apresentacao__rede__item">
-                <a href="">Instagram<img src="assets/icons/arrow_cyan_24dp.png" alt="Instagram" /></a>
-              </li>
-            </ul>
+<body>
+  <div class="all">
+    <!-- Navbar -->
+    <section class="menu">
+      <header class="cabecalho">
+        <nav class="cabecalho__menu">
+          <div class="cabecalho__menu__esquerda">
+            <img src="assets/imgs/komodo.png" alt="Ícone estrela" class="cabecalho__menu__icone" />
+            <span class="cabecalho__menu__nome">Deyvid Santos</span>
           </div>
+          <div class="cabecalho__menu__direita">
+            <a href="#sobreMim" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="#habilidades" class="cabecalho__menu__link">Skills</a>
+            <a href="#" class="cabecalho__menu__link">Hobbies</a>
+            <a href="#" class="cabecalho__menu__link">Formação</a>
+            <a href="#" class="cabecalho__menu__link">Projetos</a>
+            <a href="https://instagram.com/deyvid.salvatore" class="cabecalho__menu__link">@deyvid.salvatore</a>
+          </div>
+        </nav>
+      </header>
+    </section>
+
+    <!-- Apresentação -->
+    <section class="apresentacao">
+      <div class="apresentacao__div">
+        <img src="assets/imgs/komodo.png" alt="Um ícone de Komodo" class="apresentacao__perfil" />
+        <div class="apresentacao__container">
+          <h2 class="apresentacao__bio">
+            Olá, meu nome é Deyvid Santos e sou
+            <strong>Engenheiro de Software</strong>
+          </h2>
+          <h3 class="apresentacao__subsecao">
+            Eu sou formado em CCO pela UNIFG e atualmente estou participando
+            no projeto Oracle ONE na Alura.
+          </h3>
+          <ul class="apresentacao__redes">
+            <li class="apresentacao__rede__item">
+              <a href="">Github<img src="assets/icons/arrow_cyan_24dp.png" alt="Github" /></a>
+            </li>
+            <li class="apresentacao__rede__item">
+              <a href="">LinkedIn<img src="assets/icons/arrow_cyan_24dp.png" alt="Linkedin" /></a>
+            </li>
+            <li class="apresentacao__rede__item">
+              <a href="">Medium<img src="assets/icons/arrow_cyan_24dp.png" alt="Medium" /></a>
+            </li>
+            <li class="apresentacao__rede__item">
+              <a href="">Instagram<img src="assets/icons/arrow_cyan_24dp.png" alt="Instagram" /></a>
+            </li>
+          </ul>
         </div>
-      </section>
-    </div>
-  </body>
+      </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section class="sobre" id="#sobreMim">
+      <div class="sobre__container">
+        <h1 class="sobre__titulo">Sobre mim</h1>
+        <p class="sobre__descricao">
+          Como um desenvolvedor apaixonado por solucionar problemas, mergulho de cabeça em desafios complexos, utilizando
+          minha expertise em tecnologias como Angular para criar interfaces intuitivas e Java com Spring para desenvolver
+          robustas soluções backend. Meu trabalho visa otimizar processos e impactar positivamente a vida das pessoas.
+          Estou sempre atualizado com as últimas tendências, incluindo o uso de SQL Server para gerenciar dados de forma
+          eficiente. Colaboração e trabalho em equipe são fundamentais para mim, aproveitando ferramentas como Docker e
+          Kubernetes para garantir uma implantação suave e escalável de nossas aplicações na AWS. Sou resiliente diante de
+          desafios, constantemente buscando novas abordagens para alcançar nossos objetivos e contribuir
+          significativamente para o sucesso dos projetos em que estou envolvido.
+        </p>
+        <img class="sobre__img" src="assets/imgs/sign_deyvid.png" alt="my-signature">
+      </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="#habilidades">
+    
+  </section>
+</body>
+
 </html>
