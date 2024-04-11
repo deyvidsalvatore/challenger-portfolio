@@ -1,165 +1,248 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-    --cor-primaria: #000000;
-    --cor-secundaria: #F6F6F6;
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
 
-    --fonte-principal: 'Mulish', Helvetica, sans-serif;
+  --fonte-principal: 'Mulish', Helvetica, sans-serif;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--cor-primaria);
-    box-sizing: border-box;
-    color: var(--cor-secundaria);
+  background-color: var(--cor-primaria);
+  box-sizing: border-box;
+  color: var(--cor-secundaria);
 }
 
 ol,
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: var(--cor-secundaria);
+  text-decoration: none;
+  color: var(--cor-secundaria);
 }
 
 .cabecalho {
-    padding: 2% 15%;
+  padding: 2% 15%;
 }
 
 .cabecalho__menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cabecalho__menu__esquerda {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .cabecalho__menu__direita {
-    display: flex;
-    gap: 32px;
-    align-items: center;
+  display: flex;
+  gap: 32px;
+  align-items: center;
 }
 
 .cabecalho__menu__icone {
-    width: 64px;
-    height: 64px;
+  width: 64px;
+  height: 64px;
 }
 
 .cabecalho__menu__nome {
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 700;
-    margin-left: 8px;
-    color: var(--cor-secundaria);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: var(--cor-secundaria);
 }
 
 .cabecalho__menu__link {
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 500;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .cabecalho__menu__link:last-child {
-    font-weight: 700;
-    margin-right: 32px;
+  font-weight: 700;
+  margin-right: 32px;
 }
 
 .apresentacao__div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .apresentacao__perfil {
-    order: 2;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 368px;
-    height: 368px;
+  order: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 368px;
+  height: 368px;
 }
 
 .apresentacao__container {
-    flex-grow: 1;
-    font-family: var(--fonte-principal);
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 4% 15%;
-    justify-content: center;
+  flex-grow: 1;
+  font-family: var(--fonte-principal);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 4% 15%;
+  justify-content: center;
 }
 
 .apresentacao__bio {
-    font-size: 48px;
-    font-weight: bold;
+  font-size: 48px;
+  font-weight: bold;
 }
 
 .apresentacao__subsecao {
-    font-size: 22px;
-    font-weight: 400;
+  font-size: 22px;
+  font-weight: 400;
 }
 
 .apresentacao__redes {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
 }
 
 .apresentacao__rede__item {
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 20px;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
 }
 
 .apresentacao__rede__item img {
-    margin-left: 4px;
-    margin-right: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .apresentacao__rede__item:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 /* Sobre Mim */
 .sobre {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4% 15%;
-    background-color: #111;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4% 15%;
+  background-color: #111;
 }
 
 .sobre__container {
-    text-align: justify;
+  text-align: justify;
 }
 
 .sobre__titulo {
-    font-family: var(--fonte-principal);
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 24px;
+  font-family: var(--fonte-principal);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
 
 .sobre__descricao {
-    font-family: var(--fonte-principal);
-    font-size: 18px;
-    font-weight: 400;
-    margin-right: 24px;
+  font-family: var(--fonte-principal);
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 24px;
 }
 
 .sobre__img {
-    margin-top: 24px;
-    width: 128px;
-    height: 128px;
+  margin-top: 24px;
+  width: 128px;
+  height: 128px;
+}
+
+.skills {
+    margin-bottom: 40px;
+}
+
+.skills__titulo {
+  margin: 24px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: var(--fonte-principal);
+  text-align: center;
+}
+
+.skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills__card {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: #1f1e1e;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.skills__card img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.skills__card p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--fonte-principal);
+  color: #fff;
+}
+
+.hobbies {
+  margin-bottom: 24px;
+}
+.hobbies__titulo {
+  margin: 24px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: var(--fonte-principal);
+  text-align: center;
+}
+
+.hobbies__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.hobbies__card {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: #1f1e1e;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.hobbies__card img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.hobbies__card p {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--fonte-principal);
+  color: #fff;
 }
