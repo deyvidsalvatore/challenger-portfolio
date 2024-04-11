@@ -206,6 +206,7 @@ a {
   color: #fff;
 }
 
+/* Hobbies */
 .hobbies {
   margin-bottom: 24px;
 }
@@ -245,4 +246,53 @@ a {
   font-weight: bold;
   font-family: var(--fonte-principal);
   color: #fff;
+}
+
+/* Formação Acadêmica */
+.formacao {
+  margin-bottom: 24px;
+  background-color: #111;
+  font-family: var(--fonte-principal);
+  padding: 24px;
+}
+
+.formacao__titulo {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 24px;
+}
+
+.formacao__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formacao__card {
+  background-color: #1f1e1e;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.formacao__card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.formacao__card h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.formacao__card p {
+  font-size: 1rem;
+  color: #6c757d;
+  margin: 0;
 }
