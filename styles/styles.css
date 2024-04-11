@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
     --cor-primaria: #000000;
     --cor-secundaria: #F6F6F6;
 
-    --fonte-principal: 'Raleway', sans-serif;
+    --fonte-principal: 'Mulish', Helvetica, sans-serif;
 }
 
 * {
@@ -17,9 +17,17 @@ body {
     box-sizing: border-box;
     color: var(--cor-secundaria);
 }
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
 
 .cabecalho {
-    padding: 2% 0 0 15%;
+    padding: 2% 15%;
 }
 
 .cabecalho__menu {
@@ -40,8 +48,8 @@ body {
 }
 
 .cabecalho__menu__icone {
-    width: 24px;
-    height: 24px;
+    width: 64px;
+    height: 64px;
 }
 
 .cabecalho__menu__nome {
@@ -56,11 +64,65 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 500;
-    color: var(--cor-secundaria);
-    text-decoration: none;
 }
 
 .cabecalho__menu__link:last-child {
     font-weight: 700;
     margin-right: 32px;
+}
+
+.apresentacao__div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.apresentacao__perfil {
+    order: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 368px;
+    height: 368px;
+}
+
+.apresentacao__container {
+    flex-grow: 1;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 20px;
+    justify-content: center;
+}
+
+.apresentacao__bio {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.apresentacao__subsecao {
+    font-size: 22px;
+    font-weight: 400;
+}
+.apresentacao__redes {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+}
+
+.apresentacao__rede__item {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.apresentacao__rede__item img {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.apresentacao__rede__item:last-child {
+  margin-right: 0;
 }
