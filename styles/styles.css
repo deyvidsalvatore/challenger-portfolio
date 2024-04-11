@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+
+    --fonte-principal: 'Raleway', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    box-sizing: border-box;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__menu__esquerda {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu__direita {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.cabecalho__menu__icone {
+    width: 24px;
+    height: 24px;
+}
+
+.cabecalho__menu__nome {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 8px;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:last-child {
+    font-weight: 700;
+    margin-right: 32px;
+}
