@@ -296,3 +296,352 @@ a {
   color: #6c757d;
   margin: 0;
 }
+
+.experiencia {
+  font-family: var(--fonte-principal);
+}
+.experiencia__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 80vw;
+}
+
+.experiencia__titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container__projeto {
+    display: flex;
+    gap: 1.175rem;
+    justify-content: space-between;
+    
+}
+
+.projeto__conteudo {
+    align-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+}
+
+.container__projeto__titulo {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.container__projeto__descricao {
+    font-size: 1.150rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.tela__projeto1 {
+    background: url(../assets/icons/projects/descripto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 500px;
+    width: 1000px;
+}
+
+.tela__projeto2 {
+    background: url(../assets/icons/projects/guess.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 500px;
+    width: 1000px;
+}
+
+.tela__projeto3 {
+    background: url(../assets/icons/projects/filmescore.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 500px;
+    width: 1000px;
+}
+
+.container__projeto--botoes {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.botao__repositorio {
+    border: 1px solid #2a7ae4;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all .2s;
+}
+
+.botao__repositorio:hover {
+    background-color: #111;
+    border: 1px solid #2a7ae4;
+    padding: 1rem;
+}
+
+.botao__demo {
+    background-color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    cursor: pointer;
+    padding: 1rem;
+    transition: all .2s;
+}
+
+.botao__demo:hover {
+    background-color: #5595E9;
+    border: 1px solid #5595E9;
+}
+
+.botao__repositorio a {
+    color: #2a7ae4;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.botao__demo a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+#contato {
+    align-items: center;
+    background-color: #111;
+    font-family: var(--fonte-principal);
+    display: flex;
+    flex-direction: column;
+    gap: .625rem;
+    padding: 4rem;
+}
+
+.container__contato {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    height: 660px;
+    justify-content: center;
+    padding: 4rem 0 0;
+    width: 1136px;
+}
+
+.container__contato__imagem {
+    background: url(../assets/imgs/komodo_phone_no_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 615px;
+    width: 464px;
+}
+
+.container__contato__conteudo {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    width: 656px;
+}
+
+.conteudo__introducao {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.container__contato__titulo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+.container__contato__texto {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container_formulario {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+.formulario__campos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 56px;
+    position: relative;
+}
+
+.formulario__campos:nth-last-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 133px;
+    position: relative;
+}
+
+.formulario__campos label {
+    background-color: #FFFFFF;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 400;
+    left: 8px;
+    position: absolute;
+    top: 20px;
+    transition: all .4s;
+}
+
+.formulario__campos:nth-last-of-type(1) label {
+    position: absolute;
+    transition: all .4s;
+}
+
+::placeholder {
+    visibility: hidden;
+}
+
+.formulario__campos input {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #4D4D4D;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 56px;
+    outline: none;
+    resize: none;
+    padding: 1.8rem .5rem 0rem;
+    width: 656px;
+}
+
+.formulario__campos textarea {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #4D4D4D;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 133px;
+    outline: none;
+    resize: none;
+    padding: 1.8rem .5rem 0rem;
+    width: 656px;
+}
+
+.formulario__campos input:focus-within, .formulario__campos textarea:focus-within {
+    border-bottom: 2px solid #0F3057;
+}
+
+.formulario__campos span {
+    visibility: hidden;
+}
+
+.formulario__campos.erro {
+    border: 2px solid #FF5757;
+    border-radius: 4px;
+    height: 60px;
+}
+
+.formulario__campos.erro:nth-last-of-type(1) {
+    border: 2px solid #FF5757;
+    border-radius: 4px;
+    height: 137px;
+}
+
+.formulario__campos.erro span {
+    animation: chacoalha .5s ease-in-out infinite;
+    color: #FF5757;
+    font-size: 1rem;
+    font-weight: bold;
+    visibility: visible;
+}
+
+.botao__enviar.campo-com-erro {
+    opacity: .5;
+}
+
+.botao__enviar {
+    background-color: #0F3057;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 1rem;
+    height: 55px;
+    order: 2;
+    padding: 1rem;
+    transition: .5s;
+    width: 165px;
+}
+
+.botao__enviar:hover {
+    background-color: #286DA8;
+}
+
+.seta-cima {
+    animation: deslizaCima 900ms ease-in-out infinite;
+    bottom: 250px;
+    font-size: 5rem;
+    position: absolute;
+    right: -280px;
+}
+
+.seta-cima a,
+.seta-cima a:visited {
+    color: #0F3057;
+    opacity: 1;
+    transition: .5s;
+}
+
+.seta-cima a:hover {
+    opacity: .7;
+}
+
+
+.rodape {
+  background-color: #1f1e1e;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.rodape p {
+  font-family: var(--fonte-principal);
+  font-size: 20px;
+}
+
+@keyframes chacoalha {
+	25% {
+		transform: translateY(4px);
+	}
+	50% {
+		transform: translateX(-4px);
+	}
+	75% {
+		transform: translateY(4px);
+	}
+}
+
+@keyframes deslizaCima {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
