@@ -615,6 +615,9 @@ a {
   color: #fff;
   text-align: center;
   padding: 40px 0;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #fff;
 }
 
 .rodape p {

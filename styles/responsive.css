@@ -1,0 +1,101 @@
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    padding: 2% 10%;
+  }
+  .cabecalho__menu__direita {
+    display: inline;
+    left: 0px;
+  }
+  .apresentacao__container {
+    padding: 4% 10%;
+  }
+  .sobre__container {
+    padding: 4% 10%;
+  }
+  .experiencia__container {
+    width: 90%;
+  }
+  .container__projeto {
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tela__projeto1,
+  .tela__projeto2,
+  .tela__projeto3 {
+    width: 90%;
+    height: auto;
+  }
+  #contato {
+    padding: 4rem 10%;
+  }
+  .container__contato {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem 0;
+    width: 90%;
+  }
+  .container__contato__imagem {
+    width: 90%;
+    height: auto;
+  }
+  .container__contato__conteudo {
+    width: 90%;
+  }
+  .rodape {
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  .rodape p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .cabecalho {
+    padding: 2% 5%;
+  }
+  .apresentacao__container {
+    padding: 4% 5%;
+  }
+  .sobre__container {
+    width: 80%;
+    margin: 0;
+    padding: 4% 5%;
+    text-align: justify;
+  }
+  .sobre__titulo {
+    text-align: center;
+  }
+  .experiencia__container {
+    width: 95%;
+  }
+  .container__projeto {
+    gap: 1rem;
+  }
+  .tela__projeto1,
+  .tela__projeto2,
+  .tela__projeto3 {
+    width: 45%;
+  }
+  #contato {
+    padding: 4rem 5%;
+  }
+  .container__contato {
+    gap: 2rem;
+  }
+  .container__contato__imagem {
+    width: 45%;
+  }
+  .container__contato__conteudo {
+    width: 45%;
+  }
+  .rodape {
+    padding: 30px 0;
+    margin-top: 30px;
+  }
+  .rodape p {
+    font-size: 18px;
+  }
+}
